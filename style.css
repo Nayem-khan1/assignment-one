@@ -87,6 +87,28 @@ input[type=text]{
     font-size: 18px;
     text-align: center;
 }
+.article{
+    max-width: 960px;
+    margin: auto;
+    background-color: #ddd;
+    margin-bottom: 100px;
+}
+.article_img{
+    display: flex;
+    padding: 10px 15px 25px 15px;
+}
+.img_1{
+    width: 40%;
+    margin-left: 5%;
+    background-color: white;
+    padding: 15px;
+    line-height: 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #707070;
+}
+.img_1 img{
+    width: 100%;
+}
 .card_container{
     display: flex;
     margin-left: 10%;
