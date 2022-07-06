@@ -27,7 +27,7 @@ h2{
     font-size: 40px;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .display_center{
@@ -45,6 +45,7 @@ h3{
 .container{
     max-width: 960px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .content{
     display: flex;
@@ -80,5 +81,90 @@ hr{
 }
 input[type=text]{
     border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
     font-size: 18px;
+    text-align: center;
+}
+.card_container{
+    display: flex;
+    margin-left: 10%;
+}
+.card_one{
+    width: 20%;
+    padding: 4%;
+    background-color: #EDF5F6;
+    border-radius: 15px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.card_two{
+    width: 20%;
+    padding: 4%;
+    margin-left: 3%;
+    background-color: #FFEEEE;
+    border-radius: 15px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.card_three{
+    width: 20%;
+    padding: 4%;
+    margin-left: 3%;
+    background-color: #FFF4D6;
+    border-radius: 15px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.update{
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.email{
+    background-color: #FFF4D6;
+    padding: 80px 300px;
+}
+input[type=email]{
+    height: 40px;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+    padding: 5px 10px;
+}
+.email button{
+    height: 50px;
+    width: 100px;
+    margin-left: -4px;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #FF5959;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+}
+.email button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #0B0D17;
+    height: 200px;
+    width: 100%;
+}
+footer h3{
+    text-align: center;
+    color: #FF5959;
+    padding-top: 40px;
+
+}
+footer p{
+    color: #ddd;
+    text-align: center;
+    padding: 10px 100px;
 }
