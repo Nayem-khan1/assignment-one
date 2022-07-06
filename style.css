@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+section{
+    margin-bottom: 100px;
+}
+.header{
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 300px;
+    color: white;
+    
+    box-shadow: inset 0px -100px 300px 150px black;
+}
+.header p{
+    text-align: center;
+    padding: 10PX;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+.display_center{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    font-weight:800;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10PX;
+    line-height: 1.5em;
+}
+.donate_amount{
+    display: flex;
+}
+.fixd_width{
+    width: 10%;
+    background-color: #dfdbdb;
+    margin-left: 5%;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: #707070;
+}
+.selected_item{
+    background-color: #FFEEEE;
+    border: 2px solid #FF6262;
+    color: #FF6262;
+}
+.input_amount{
+    margin-top: 40px;
+}
+hr{
+    margin-bottom: 30px;
+}
+input[type=text]{
+    border: none;
+    font-size: 18px;
+}
